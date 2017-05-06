@@ -1,0 +1,26 @@
+-Project			: Geolocation of Tweets with Machine Learning
+ -
+ -Author			: Bing Xie
+ -
+ -Date			: 15/10/16
+ -
+ -Files			: AttributeSelect.java
+ -                EliminateDuplicateTwitter.java
+ -                Filepreprocess.java
+ -
+ -
+ -
+ -Java Program
+ -
+ -
+ -Usage		: 1) EliminateDuplicateTwitter.java <input-file>
+ -			     (Input: train-tweets.txt , Output:train-tweetsProcess.txt)
+ -                       
+ -
+ -			  2) AttributeSelect.java <input-file> 
+ -			     (Input:train-tweetsProcess.txt Output: NewWordFrequency-B.txt,NewWordFrequency-H,
+                  NewWordFrequency-SD,NewWordFrequency-Se,NewWordFrequency-W)
+ -
+ -			  3) Filepreprocess.java<input-file>
+ -                           (Input: train-tweets.txt , dev-tweets.txt,test-tweets.txt,  Attributes.txt
+ -                            Output:train60.arff, dev60.arff, test60.arff)
